@@ -1,13 +1,14 @@
-<script>
+<script lang="ts">
 	import { Heading, Card } from "flowbite-svelte";
-
+	import { fade } from "svelte/transition";
+	  let scrollY: number;
   </script>
-<section class="flex flex-columns items-center justify-center min-h-[700px]">
-   <div class="container text-center m-5 md:m-10">
+<section class="flex flex-columns items-center justify-center min-h-[700px]" id="solutions">
+  {#if scrollY > 700}
+   <div class="container text-center m-5 md:m-10" transition:fade={{duration: 400}}>
     <Heading tag="h1" class="mb-4">
       Solutions
      </Heading>
-   
      <div class="grid md:grid-cols-5 grid-cols-1 gap-5 mt-10">
         <Card img="https://images.pexels.com/photos/3755755/pexels-photo-3755755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IT solution</h5>
@@ -35,4 +36,6 @@
         </Card>
       </div>
    </div>
+   {/if}
 </section>
+<svelte:window bind:scrollY />

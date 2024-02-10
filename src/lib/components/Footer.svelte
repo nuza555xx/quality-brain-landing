@@ -15,28 +15,19 @@
       </P>
        </div>
       </div>
-      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-2">
         <div>
-          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">Solution</h2>
+          <h2 class="mb-3 md:mb-6 text-xl font-semibold text-gray-900 text-white">Solution</h2>
           <FooterLinkGroup>
-            <FooterLink liClass="mb-4 text-white" href="/">IT solution</FooterLink>
-            <FooterLink liClass="mb-4 text-white" href="/">Cyber security</FooterLink>
-            <FooterLink liClass="mb-4 text-white" href="/">Software development</FooterLink>
-            <FooterLink liClass="mb-4 text-white" href="/">IOT</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">IT solution</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Cyber security</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Software development</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">IOT</FooterLink>
           </FooterLinkGroup>
         </div>
-       
-        <div>
-          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">Why Quality Brain</h2>
-        </div>
-
-        <div>
-          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">Contact</h2>
-        </div>
-
       </div>
     </div>
-    <Hr classHr="my-8" />
+    <Hr classHr="my-2 md:my-8" />
 
     <div class="sm:flex sm:items-center sm:justify-between">
       <FooterCopyright href="/" by="Quality Brain™" spanClass="text-white" />

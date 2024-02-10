@@ -1,8 +1,11 @@
-<script>
+<script lang="ts">
     import { Heading, P, Span } from 'flowbite-svelte';
+	import { fade } from 'svelte/transition';
+	let scrollY: number;
   </script>
-<section class="flex flex-columns items-center justify-center min-h-[500px]">
-   <div class="container text-center m-5 md:m-10">
+<section class="flex flex-columns items-center justify-center min-h-[500px]" id="why">
+  {#if scrollY > 300}
+   <div class="container text-center m-5 md:m-10" transition:fade={{duration: 400}}>
     <Heading tag="h1" class="mb-4">
         Why <Span underline decorationClass="decoration-8 decoration-primary-700 dark:decoration-primary-600">Quality Brain</Span> ?
        </Heading>
@@ -11,4 +14,6 @@
         and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.
       </P>
    </div>
+   {/if}
 </section>
+<svelte:window bind:scrollY />

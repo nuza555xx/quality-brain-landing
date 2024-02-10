@@ -1,10 +1,12 @@
-<script>
-    import { Input, Label, Button, Checkbox, A, Heading, P } from 'flowbite-svelte';
+<script lang="ts">
+    import { Input, Label, Button, Heading, P } from 'flowbite-svelte';
     import { ArrowRightOutline } from 'flowbite-svelte-icons';
-
+	import { fade } from 'svelte/transition';
+    let scrollY: number;
   </script>
-<section class="flex flex-columns items-center justify-center min-h-[700px]">
-   <div class="container m-5 md:m-10">
+<section class="flex flex-columns items-center justify-center min-h-[700px]" id="contact">
+  {#if scrollY > 1200}
+   <div class="container m-5 md:m-10" transition:fade={{duration: 400}}>
    <div class="text-center">
     <Heading tag="h1" class="mb-4">
       Contact
@@ -18,7 +20,8 @@
     Thailand
     </P>
     
-    <iframe
+    <!-- <iframe
+      title="Wikipedia English language homepage"
       width="100%"
       height="300"
       style="border:0"
@@ -27,7 +30,7 @@
       referrerpolicy="no-referrer-when-downgrade"
       src="https://www.google.com/maps/embed/v1/place?key=
         &q=Space+Needle,Seattle+WA">
-    </iframe>
+    </iframe> -->
   </div>
   
       <form class="mt-10">
@@ -55,4 +58,6 @@
         </div>
       </form>
    </div>
+   {/if}
 </section>
+<svelte:window bind:scrollY />

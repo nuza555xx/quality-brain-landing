@@ -7,6 +7,17 @@
     description="For a future"
     canonical="https://www.canonical.ie/"
     keywords={['quality brain', 'Quality Brain', 'QualityBrain', 'Software development', 'Cyber security', 'Infrastructure', 'Web development', 'Full stack development']}
+    additionalLinkTags={[
+      {
+        rel: 'icon',
+        href: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
+      },
+      {
+        rel: 'apple-touch-icon',
+        href: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
+        sizes: '76x76'
+      },
+  ]}
     openGraph={{
       url: 'https://qualitybrain.netlify.app/',
       title: 'Quality Brain',
@@ -25,6 +36,7 @@
           alt: 'Quality Brain'
         },
       ],
+    
       siteName: 'Quality Brain'
     }}
   />

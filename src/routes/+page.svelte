@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import SlideComponent from "components/ui/Slide.svelte";
 	import WhyComponent from "components/ui/Why.svelte";
 	import SolutionComponent from "components/ui/Solution.svelte";
