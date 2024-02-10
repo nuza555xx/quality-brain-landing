@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import SlideComponent from "components/ui/Slide.svelte";
+	import WhyComponent from "components/ui/Why.svelte";
+	import SolutionComponent from "components/ui/Solution.svelte";
+	import ContactComponent from "components/ui/Contact.svelte";
+
+</script>
+<section>
+	<SlideComponent />
+	<WhyComponent/>
+	<SolutionComponent/>
+	<ContactComponent/>
+</section>
