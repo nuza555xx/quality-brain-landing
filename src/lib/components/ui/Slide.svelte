@@ -1,5 +1,7 @@
 <script>
-    import { Carousel, Heading, P, Span } from 'flowbite-svelte';
+    import { Carousel, Heading, Hr, P, Span } from 'flowbite-svelte';
+    import { QuoteSolid } from 'flowbite-svelte-icons';
+
     export const images = [
     {
       alt: '1',
@@ -19,7 +21,7 @@
       <Indicators/>
       <div class="absolute top-[25%] mx-5 md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%] md:mx-10 ">
         <Heading tag="h1" class="mb-4 text-white" customSize="text-3xl font-extrabold md:text-7xl">
-          <Span gradient>WHY !!</Span> must to Quality brain.
+          For a <Span gradient>future</Span>.
         </Heading>
          <P class="mb-3 md:text-xl" weight="light" color="text-white">
             Track work across the enterprise through an open, collaborative platform. <strong class="font-bold text-primary-900 dark:text-white"> Link issues across Jira </strong>

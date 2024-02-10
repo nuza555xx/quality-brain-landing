@@ -1,5 +1,5 @@
 <script>
-    import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, P } from 'flowbite-svelte';
+    import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, P, Hr } from 'flowbite-svelte';
     import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
   </script>
   
@@ -27,16 +27,17 @@
         </div>
        
         <div>
-          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">About</h2>
-          <FooterLinkGroup>
-            <FooterLink liClass="mb-4 text-white" href="/">Why</FooterLink>
-            <FooterLink liClass="mb-4 text-white" href="/">Contact</FooterLink>
-          </FooterLinkGroup>
+          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">Why Quality Brain</h2>
+        </div>
+
+        <div>
+          <h2 class="mb-6 text-xl font-semibold text-gray-900 text-white">Contact</h2>
         </div>
 
       </div>
     </div>
-    <hr class="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <Hr classHr="my-8" />
+
     <div class="sm:flex sm:items-center sm:justify-between">
       <FooterCopyright href="/" by="Quality Brain™" spanClass="text-white" />
       <div class="flex mt-4 space-x-6 rtl:space-x-reverse sm:justify-center sm:mt-0">
