@@ -23,8 +23,7 @@
           For a <Span gradient>future</Span>.
         </Heading>
          <P class="mb-3 md:text-xl" weight="light" color="text-white">
-            Track work across the enterprise through an open, collaborative platform. <strong class="font-bold text-primary-900 dark:text-white"> Link issues across Jira </strong>
-            and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.
+          Great things in business are never done by one person; they're done by a  <strong class="font-bold text-primary-900 dark:text-white">team</strong> of people.
           </P>
       </div>
     </Carousel>
