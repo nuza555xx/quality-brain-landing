@@ -8,11 +8,9 @@
       <div class="mb-6 md:mb-0">
         <FooterBrand href="/" src="https://cdn-icons-png.flaticon.com/512/3618/3618051.png" spanClass="text-white text-2xl" alt="Logo" name="Quality Brain" />
        <div class="my-5">
-      <P class="mb-3" weight="light" color="text-white">
-        123 Sukhumvit Road, Bangkok
-      Khlong Toei, Bangkok 10110
-      Thailand
-      </P>
+      <P class="mb-3" weight="light" color="text-white"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
+      <P class="mb-3" weight="light" color="text-white">123 Main Street, Cityville, State, Country</P>
+      <P class="mb-3" weight="light" color="text-white">Monday - Friday, 9:00 AM - 5:00 PM</P>
        </div>
       </div>
       <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-2">
@@ -22,7 +20,9 @@
             <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">IT solution</FooterLink>
             <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Cyber security</FooterLink>
             <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Software development</FooterLink>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">IOT</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Internet of Things (IoT)</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Blockchain</FooterLink>
+
           </FooterLinkGroup>
         </div>
       </div>

@@ -12,27 +12,27 @@
      <div class="grid md:grid-cols-5 grid-cols-1 gap-5 mt-10">
         <Card img="https://images.pexels.com/photos/3755755/pexels-photo-3755755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="hover:scale-[1.1] transition-all cursor-pointer">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IT solution</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">We specialize in developing scalable and innovative software solutions tailored to your business needs.</p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight leading-snug">We specialize in developing scalable and innovative software solutions tailored to your business needs.</p>
         </Card>
 
         <Card img="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="hover:scale-[1.1] transition-all cursor-pointer">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cyber security</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Protect your digital assets with our comprehensive cybersecurity services, including threat detection, prevention, and incident response.</p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight leading-snug">Protect your digital assets with our comprehensive cybersecurity services, including threat detection, prevention, and incident response.</p>
         </Card>
 
         <Card img="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="hover:scale-[1.1] transition-all cursor-pointer">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Software development</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Streamline your IT operations and enhance efficiency with our range of IT solutions, including cloud computing, network infrastructure, and IT support.</p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight leading-snug">Streamline your IT operations and enhance efficiency with our range of IT solutions, including cloud computing, network infrastructure, and IT support.</p>
         </Card>
 
         <Card img="https://images.pexels.com/photos/18186227/pexels-photo-18186227/free-photo-of-smart-home-devices.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="hover:scale-[1.1] transition-all cursor-pointer">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Internet of Things (IoT)</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Explore the possibilities of IoT with our expertise in connecting devices, collecting data, and leveraging insights to drive business growth.</p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight leading-snug">Explore the possibilities of IoT with our expertise in connecting devices, collecting data, and leveraging insights to drive business growth.</p>
         </Card>
 
-        <Card img="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600" class="hover:scale-[1.1] transition-all cursor-pointer">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Infrastructure</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Build a solid foundation for your digital initiatives with our infrastructure services, covering architecture design, deployment, and maintenance.</p>
+        <Card img="https://images.pexels.com/photos/260032/pexels-photo-260032.jpeg?auto=compress&cs=tinysrgb&w=600" class="hover:scale-[1.1] transition-all cursor-pointer">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blockchain</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight leading-snug">We specialize in developing scalable and innovative software solutions tailored to your business needs.</p>
         </Card>
       </div>
    </div>

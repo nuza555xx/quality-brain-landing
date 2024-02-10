@@ -13,24 +13,25 @@
      </Heading>
    </div>
    
-   <div>
-    <P class="mb-3" weight="light">
-      123 Sukhumvit Road, Bangkok
-    Khlong Toei, Bangkok 10110
-    Thailand
-    </P>
-    
-    <!-- <iframe
-      title="Wikipedia English language homepage"
-      width="100%"
-      height="300"
-      style="border:0"
-      loading="lazy"
-      allowfullscreen
-      referrerpolicy="no-referrer-when-downgrade"
-      src="https://www.google.com/maps/embed/v1/place?key=
-        &q=Space+Needle,Seattle+WA">
-    </iframe> -->
+   <div class="grid grid-cols-1 md:grid-cols-2">
+  <div>
+    <P class="mb-3 text-2xl" weight="light"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
+      <P class="mb-3 text-2xl" weight="light">123 Main Street, Cityville, State, Country</P>
+      <P class="mb-3 text-2xl" weight="light">Monday - Friday, 9:00 AM - 5:00 PM</P>
+  </div>
+    <div>
+      <iframe
+        title="Wikipedia English language homepage"
+        width="100%"
+        height="300"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=
+          &q=Space+Needle,Seattle+WA">
+      </iframe>
+    </div>
   </div>
   
       <form class="mt-10">

@@ -19,11 +19,11 @@
         <img src="https://cdn-icons-png.flaticon.com/512/3618/3618051.png" class="me-3 h-7 sm:h-9" alt="QB Logo" />
         <span class="self-center whitespace-nowrap text-xl font-semibold text-white dark:text-white hidden md:block">Quality Brain</span>
       </NavBrand>
-      <NavHamburger class="text-white focus:outline-none rounded-md focus:ring-0 p-1.5 focus:ring-gray-800 hover:bg-gray-500" />
-      <NavUl ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-sm md:font-medium rounded-none border-transparent">
-        <NavLi nonActiveClass="md:text-white" href="#why" on:click={scrollIntoView}>Why Quality Brain</NavLi>
-        <NavLi nonActiveClass="md:text-white" href="#solutions" on:click={scrollIntoView}>Solutions</NavLi>
-        <NavLi nonActiveClass="md:text-white" href="#contact" on:click={scrollIntoView}>Contact</NavLi>
+      <NavHamburger class="text-white rounded-md p-1.5 focus:ring-gray-800 hover:bg-gray-500" />
+      <NavUl ulClass="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:text-sm md:font-medium rounded-sm border-transparent bg-[#49494992] md:bg-transparent" slideParams={{ duration: 200 }}>
+        <NavLi nonActiveClass="text-white" href="#why" on:click={scrollIntoView}>Why Quality Brain</NavLi>
+        <NavLi nonActiveClass="text-white" href="#solutions" on:click={scrollIntoView}>Solutions</NavLi>
+        <NavLi nonActiveClass="text-white" href="#contact" on:click={scrollIntoView}>Contact</NavLi>
       </NavUl>
     </Navbar>
   </div>
