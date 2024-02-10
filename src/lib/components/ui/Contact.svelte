@@ -45,7 +45,7 @@
           </div>
           <div>
             <Label for="phone" class="mb-2">Phone</Label>
-            <Input type="tel" id="phone" placeholder="" pattern={"[0-9]{3}-[0-9]{2}-[0-9]{3}"} required />
+            <Input type="tel" id="phone" placeholder="" required />
           </div>
           <div class="mb-6">
             <Label for="email" class="mb-2">Email</Label>
@@ -54,7 +54,7 @@
         </div>
        
         <div class="text-center">
-        <Button type="submit" size="xl">Submit <ArrowRightOutline class="w-7 h-7 ms-2" /></Button>
+        <Button size="xl" href="mailto:admin@qualtitybrain?subject=Hello">Submit <ArrowRightOutline class="w-7 h-7 ms-2" /></Button>
         </div>
       </form>
    </div>
