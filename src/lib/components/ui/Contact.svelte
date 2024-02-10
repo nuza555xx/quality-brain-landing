@@ -15,9 +15,9 @@
    
    <div class="grid grid-cols-1 md:grid-cols-2">
   <div>
-    <P class="mb-3 text-2xl" weight="light"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
-      <P class="mb-3 text-2xl" weight="light">123 Main Street, Cityville, State, Country</P>
-      <P class="mb-3 text-2xl" weight="light">Monday - Friday, 9:00 AM - 5:00 PM</P>
+    <P class="mb-3 md:text-2xl" weight="light"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
+      <P class="mb-3 md:text-2xl" weight="light">123 Main Street, Cityville, State, Country</P>
+      <P class="mb-3 md:text-2xl" weight="light">Monday - Friday, 9:00 AM - 5:00 PM</P>
   </div>
     <div>
       <iframe
