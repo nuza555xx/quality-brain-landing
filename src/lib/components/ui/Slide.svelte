@@ -1,6 +1,5 @@
 <script>
     import { Carousel, Heading, Hr, P, Span } from 'flowbite-svelte';
-    import { QuoteSolid } from 'flowbite-svelte-icons';
 
     export const images = [
     {

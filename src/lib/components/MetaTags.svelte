@@ -4,41 +4,28 @@
   
   <MetaTags
     title="Quality Brain"
-    description="This example uses more of the available config options."
+    description="For a future"
     canonical="https://www.canonical.ie/"
+    keywords={['quality brain', 'Quality Brain', 'QualityBrain', 'Software development', 'Cyber security', 'Infrastructure', 'Web development', 'Full stack development']}
     openGraph={{
-      url: 'https://www.url.ie/a',
-      title: 'Open Graph Title',
-      description: 'Open Graph Description',
+      url: 'https://qualitybrain.netlify.app/',
+      title: 'Quality Brain',
+      description: 'For a future',
       images: [
         {
-          url: 'https://www.example.ie/og-image-01.jpg',
+          url: 'https://fakeimg.pl/800x800?text=Quality+brain',
           width: 800,
           height: 600,
-          alt: 'Og Image Alt'
+          alt: 'Quality Brain'
         },
         {
-          url: 'https://www.example.ie/og-image-02.jpg',
+          url: 'https://fakeimg.pl/900x800?text=Quality+brain',
           width: 900,
           height: 800,
-          alt: 'Og Image Alt Second'
+          alt: 'Quality Brain'
         },
-        { url: 'https://www.example.ie/og-image-03.jpg' },
-        { url: 'https://www.example.ie/og-image-04.jpg' }
       ],
-      siteName: 'SiteName'
-    }}
-    twitter={{
-      handle: '@handle',
-      site: '@site',
-      cardType: 'summary_large_image',
-      title: 'Using More of Config',
-      description: 'This example uses more of the available config options.',
-      image: 'https://www.example.ie/twitter-image.jpg',
-      imageAlt: 'Twitter image alt'
-    }}
-    facebook={{
-      appId: '1234567890'
+      siteName: 'Quality Brain'
     }}
   />
   
