@@ -1,9 +1,9 @@
 <script>
 	import { t } from '$lib/localize/i18n';
   import { Carousel, Heading, P, Span } from 'flowbite-svelte';
-  import image1 from '$lib/assets/pexels-christina-morillo-1181359.webp';
-  import image2 from '$lib/assets/pexels-christina-morillo-1181712.webp';
-  import image3 from '$lib/assets/pexels-pixabay-60504.webp';
+  import image1 from '$lib/assets/hd/pexels-christina-morillo-1181359.webp';
+  import image2 from '$lib/assets/hd/pexels-christina-morillo-1181712.webp';
+  import image3 from '$lib/assets/hd/pexels-pixabay-60504.webp';
 
 
     export const images = [
@@ -31,9 +31,9 @@
         <Heading tag="h1" class="mb-4 text-white font-semibold" customSize="text-3xl font-extrabold md:text-8xl">
           {$t('homepage.banner.title')}<Span gradient>{$t('homepage.banner.subtitle')}</Span>
         </Heading>
-         <P class="mb-3 md:text-4xl" weight="light" color="text-white">
+         <p class="mb-3 md:text-4xl text-white">
           {$t('homepage.banner.desc')}
-        </P>
+         </p>
       </div>
     </Carousel>
   </div>

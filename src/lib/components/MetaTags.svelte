@@ -37,11 +37,13 @@
     additionalLinkTags={[
       {
         rel: 'icon',
-        href: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
+        href: 'https://cdn-icons-png.flaticon.com/32/3618/3618051.png',
+        sizes: '32x32'
+
       },
       {
         rel: 'apple-touch-icon',
-        href: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
+        href: 'https://cdn-icons-png.flaticon.com/76/3618/3618051.png',
         sizes: '76x76'
       },
   ]}
@@ -51,13 +53,13 @@
       description: 'For a future',
       images: [
         {
-          url: 'https://fakeimg.pl/800x800?text=Quality+brain',
+          url: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
           width: 800,
           height: 600,
           alt: 'Quality Brain'
         },
         {
-          url: 'https://fakeimg.pl/900x800?text=Quality+brain',
+          url: 'https://cdn-icons-png.flaticon.com/512/3618/3618051.png',
           width: 900,
           height: 800,
           alt: 'Quality Brain'

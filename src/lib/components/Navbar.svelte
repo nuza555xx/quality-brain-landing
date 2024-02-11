@@ -23,7 +23,7 @@
   <div class="absolute top-0 left-0 right-0 z-10">
     <Navbar class="bg-transparent">
       <NavBrand href="/">
-        <img src="https://cdn-icons-png.flaticon.com/512/3618/3618051.png" class="me-3 h-7 sm:h-9" alt="QB Logo" />
+        <img src="https://cdn-icons-png.flaticon.com/64/3618/3618051.png" height="64" width="64" class="me-3 h-7 sm:h-9" alt="QB Logo" />
         <span class="self-center whitespace-nowrap text-xl font-normal text-white dark:text-white hidden md:block">Quality Brain</span>
       </NavBrand>
       <NavHamburger class="text-white rounded-md p-1.5 focus:ring-gray-800 hover:bg-gray-500" />

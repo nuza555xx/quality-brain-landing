@@ -7,7 +7,7 @@
   <Footer footerType="socialmedia" class="bg-primary-800">
     <div class="md:flex md:justify-between">
       <div class="mb-6 md:mb-0">
-        <FooterBrand href="/" src="https://cdn-icons-png.flaticon.com/512/3618/3618051.png" spanClass="text-white text-2xl" alt="Logo" name="Quality Brain" />
+        <FooterBrand href="/" src="https://cdn-icons-png.flaticon.com/64/3618/3618051.png" spanClass="text-white text-2xl" alt="Logo" name="Quality Brain" />
        <div class="my-5">
       <P class="mb-3" weight="light" color="text-white"><a href="mailto:tawan.naw@qualitybrain.tech">tawan.naw@qualitybrain.tech</a></P>
       <P class="mb-3" weight="light" color="text-white">{$t("homepage.contact.address")}</P>
