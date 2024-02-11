@@ -3,7 +3,7 @@ import { derived, writable } from 'svelte/store';
 import { LOCALIZES } from './translations';
 
 export const locales = Object.keys(LOCALIZES);
-export const locale = writable('th');
+export const locale = writable('en');
 
 function translate(locale: keyof typeof LOCALIZES, key: any, vars: Record<string, string>) {
 	if (!key) throw new Error('no key provided to $t()');

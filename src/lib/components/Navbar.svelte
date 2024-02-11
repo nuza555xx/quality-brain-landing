@@ -2,7 +2,7 @@
 	import { locale, t } from '$lib/localize/i18n';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Dropdown, DropdownItem, Label } from 'flowbite-svelte';
 	import { ChevronDownSolid } from 'flowbite-svelte-icons';
-    $: activeLanguage = 'th';
+    $: activeLanguage = 'en';
 
     function scrollIntoView({ target }: any) {
 		const el = document.querySelector(target.getAttribute('href'));
