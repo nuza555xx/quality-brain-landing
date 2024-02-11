@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/localize/i18n';
     import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, P, Hr } from 'flowbite-svelte';
     import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
   </script>
@@ -8,20 +9,20 @@
       <div class="mb-6 md:mb-0">
         <FooterBrand href="/" src="https://cdn-icons-png.flaticon.com/512/3618/3618051.png" spanClass="text-white text-2xl" alt="Logo" name="Quality Brain" />
        <div class="my-5">
-      <P class="mb-3" weight="light" color="text-white"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
-      <P class="mb-3" weight="light" color="text-white">123 Main Street, Cityville, State, Country</P>
-      <P class="mb-3" weight="light" color="text-white">Monday - Friday, 9:00 AM - 5:00 PM</P>
+      <P class="mb-3" weight="light" color="text-white"><a href="mailto:tawan.naw@qualitybrain.tech">tawan.naw@qualitybrain.tech</a></P>
+      <P class="mb-3" weight="light" color="text-white">{$t("homepage.contact.address")}</P>
+      <P class="mb-3" weight="light" color="text-white">{$t("homepage.contact.open")}</P>
        </div>
       </div>
       <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-2">
         <div>
-          <h2 class="mb-3 md:mb-6 text-xl font-semibold text-gray-900 text-white">Solution</h2>
+          <h2 class="mb-3 md:mb-6 text-xl font-semibold text-gray-900 text-white">{$t("homepage.solutions")}</h2>
           <FooterLinkGroup>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">IT solution</FooterLink>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Cyber security</FooterLink>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Software development</FooterLink>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Internet of Things (IoT)</FooterLink>
-            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">Blockchain</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">{$t("homepage.solutions.it")}</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">{$t("homepage.solutions.security")}</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">{$t("homepage.solutions.develop")}</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">{$t("homepage.solutions.iot")}</FooterLink>
+            <FooterLink liClass="mb-2 md:mb-4 text-white" href="/">{$t("homepage.solutions.blockchain")}</FooterLink>
 
           </FooterLinkGroup>
         </div>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '$lib/localize/i18n';
     import { Input, Label, Button, Heading, P } from 'flowbite-svelte';
     import { ArrowRightOutline } from 'flowbite-svelte-icons';
 	import { fade } from 'svelte/transition';
@@ -8,16 +9,16 @@
   {#if scrollY > 1200}
    <div class="container m-5 md:m-10" transition:fade={{duration: 400}}>
    <div class="text-center">
-    <Heading tag="h1" class="mb-4">
-      Contact
+    <Heading tag="h1" class="mb-4 font-normal">
+      {$t("homepage.contact")}
      </Heading>
    </div>
    
    <div class="grid grid-cols-1 md:grid-cols-2">
   <div>
-    <P class="mb-3 md:text-2xl" weight="light"><a href="mailto:info@nextgentech.com">info@nextgentech.com</a></P>
-      <P class="mb-3 md:text-2xl" weight="light">123 Main Street, Cityville, State, Country</P>
-      <P class="mb-3 md:text-2xl" weight="light">Monday - Friday, 9:00 AM - 5:00 PM</P>
+      <P class="mb-3 md:text-xl font-extralight" weight="light"><a href="mailto:tawan.naw@qualitybrain.tech">tawan.naw@qualitybrain.tech</a></P>
+      <P class="mb-3 md:text-xl font-extralight" weight="light">{$t("homepage.contact.address")}</P>
+      <P class="mb-3 md:text-xl font-extralight" weight="light">{$t("homepage.contact.open")}</P>
   </div>
     <div>
       <iframe
@@ -37,25 +38,25 @@
       <form class="mt-10">
         <div class="grid gap-6 mb-6 grid-cols-1 md:grid-cols-2">
           <div>
-            <Label for="first_name" class="mb-2">Firstname</Label>
+            <Label for="first_name" class="mb-2 font-extralight">{$t("homepage.contact.firstname")}</Label>
             <Input type="text" id="first_name" placeholder="" required />
           </div>
           <div>
-            <Label for="last_name" class="mb-2">Lastname</Label>
+            <Label for="last_name" class="mb-2 font-extralight">{$t("homepage.contact.lastname")}</Label>
             <Input type="text" id="last_name" placeholder="" required />
           </div>
           <div>
-            <Label for="phone" class="mb-2">Phone</Label>
+            <Label for="phone" class="mb-2 font-extralight">{$t("homepage.contact.phone")}</Label>
             <Input type="tel" id="phone" placeholder="" required />
           </div>
           <div class="mb-6">
-            <Label for="email" class="mb-2">Email</Label>
+            <Label for="email" class="mb-2 font-extralight">{$t("homepage.contact.email")}</Label>
             <Input type="email" id="email" placeholder="" required />
           </div>
         </div>
        
         <div class="text-center">
-        <Button size="xl" href="mailto:admin@qualtitybrain?subject=Hello">Submit <ArrowRightOutline class="w-7 h-7 ms-2" /></Button>
+        <Button size="xl" href="mailto:admin@qualtitybrain?subject=Hello">{$t("homepage.contact.submit")} <ArrowRightOutline class="w-7 h-7 ms-2" /></Button>
         </div>
       </form>
    </div>
