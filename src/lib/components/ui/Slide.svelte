@@ -1,21 +1,25 @@
 <script>
 	import { t } from '$lib/localize/i18n';
-    import { Carousel, Heading, P, Span } from 'flowbite-svelte';
+  import { Carousel, Heading, P, Span } from 'flowbite-svelte';
+  import image1 from '$lib/assets/pexels-christina-morillo-1181359.webp';
+  import image2 from '$lib/assets/pexels-christina-morillo-1181712.webp';
+  import image3 from '$lib/assets/pexels-pixabay-60504.webp';
+
 
     export const images = [
       {
       alt: '1',
-      src: 'https://images.pexels.com/photos/18186227/pexels-photo-18186227/free-photo-of-smart-home-devices.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      src: image1,
       title: '1',
     },
     {
       alt: '2',
-      src: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      src: image2,
       title: '2',
     },
     {
       alt: '3',
-      src: 'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      src: image3,
       title: '3',
     },
   ];
