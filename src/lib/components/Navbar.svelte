@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { locale, t } from '$lib/localize/i18n';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Dropdown, DropdownItem, Label } from 'flowbite-svelte';
-	import { ChevronDownSolid } from 'flowbite-svelte-icons';
+	import { ChevronDownOutline } from 'flowbite-svelte-icons';
     $: activeLanguage = 'en';
 
     function scrollIntoView({ target }: any) {
@@ -36,7 +36,7 @@
             <span class="w-[50px]">
               {activeLanguage == 'th' ? 'ไทย': 'English'}
             </span>
-            <ChevronDownSolid class="w-4 h-4 ms-2 text-white dark:text-white" />
+            <ChevronDownOutline class="w-4 h-4 ms-2 text-white dark:text-white" />
           </Button>
             <Dropdown containerClass='min-w-[115px]'>
               <DropdownItem on:click={() => selectedLanguage('th')}>ไทย</DropdownItem>
